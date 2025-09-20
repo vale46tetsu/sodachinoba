@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>育ちの場　歩｜信頼と安心の学び【仮】</title>
-  <meta name="description" content="初心者歓迎。体験レッスン受付中。料金・時間割・講師情報・FAQを掲載。Instagram/Threadsで日々の様子を発信。">
+  <title>育ちの場　歩｜「苦手」をなくし、自信を育む学習教室</title>
+  <meta name="description" content="ひとりひとりの「苦手」に寄り添い、小さな「できた」を積み重ねて自信へ。個別・少人数制で安心して挑戦できる、温かい居場所のような学習教室です。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="%236C4EB4"/><text x="50" y="58" font-size="48" text-anchor="middle" fill="white">歩</text></svg>'>
+  <!-- ロゴは後日差し替え：/assets/img/logo.svg を予定 -->
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="%23F28C00"/><text x="50" y="58" font-size="48" text-anchor="middle" fill="white">歩</text></svg>'>
 </head>
 <body>
   <!-- Header / Global Nav -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="#home" class="brand" aria-label="育ちの場　歩 トップへ">
+        <!-- 後日ロゴ差し替え予定 -->
         <span class="brand-mark">歩</span>
         <span class="brand-text">育ちの場　歩</span>
       </a>
@@ -22,12 +24,12 @@
         <button class="nav-toggle" aria-controls="nav-list" aria-expanded="false" aria-label="メニューを開く">☰</button>
         <ul id="nav-list">
           <li><a href="#home">トップ</a></li>
-          <li><a href="#about">教室紹介</a></li>
-          <li><a href="#services">サービス・料金</a></li>
+          <li><a href="#features">特長</a></li>
+          <li><a href="#services">コース・料金</a></li>
           <li><a href="#news">お知らせ</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><a href="#sns">SNS・連絡先</a></li>
-          <li><a class="btn btn-primary small" href="#contact">体験申込</a></li>
+          <li><a href="#access">SNS・連絡先</a></li>
+          <li><a class="btn btn-primary small" href="#contact">面談申込</a></li>
         </ul>
       </nav>
     </div>
@@ -37,237 +39,239 @@
   <main id="home" class="hero section">
     <div class="container hero-inner">
       <div class="hero-copy">
-        <h1 class="display">信頼と安心の教室で、<br>学ぶ楽しさを。</h1>
+        <div class="hero-brand">育ちの場　歩</div>
+        <h1 class="display">「苦手」をなくし、自信を育む学習教室</h1>
         <p class="lead">
-          「育ちの場　歩」は、初めての方でも通いやすいカジュアルさと、確かな成長を支える指導体制を両立しています。【仮】対象は小学生〜一般まで。まずは体験からどうぞ。
+          ひとりひとりの「苦手」に寄り添い、小さな「できた」を積み重ねて自信へとつなげます。安心して挑戦できる個別・少人数制で、子どもたちが自分らしく成長できる、温かい居場所のような学習教室です。
         </p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#contact">体験申込</a>
+          <a class="btn btn-primary" href="#contact">面談申込</a>
           <a class="btn btn-outline" href="#services">コースを見る</a>
-        </div>
-        <div class="social">
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagramへ">Instagram</a>
-          <span class="sep">/</span>
-          <a href="https://www.threads.net/" target="_blank" rel="noopener" aria-label="Threadsへ">Threads</a>
         </div>
       </div>
       <div class="hero-visual">
+        <!-- Hero画像：assets/img/hero.jpg を配置してください -->
         <img src="./assets/img/hero.jpg" alt="教室の雰囲気【仮】" loading="eager" fetchpriority="high">
       </div>
     </div>
   </main>
 
-  <!-- Benefits -->
-  <section class="section alt">
-    <div class="container cards-3">
-      <article class="card">
-        <h3>安心の運営</h3>
-        <p>講師研修・安全対策・個人情報保護を徹底【仮】。初めてでも安心。</p>
-      </article>
-      <article class="card">
-        <h3>一人ひとりに最適</h3>
-        <p>小さな成功体験を積み重ねる指導。目標シートで見える化。</p>
-      </article>
-      <article class="card">
-        <h3>続けやすい仕組み</h3>
-        <p>振替・補習の柔軟対応【仮】。通いやすい時間割で無理なく継続。</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- About：3カラム横並び＋全画像スクエア表示 -->
-  <section id="about" class="section">
+  <!-- 特長（3ポイント） -->
+  <section id="features" class="section alt">
     <div class="container">
-      <h2>教室紹介</h2>
-
-      <div class="about-columns">
-        <!-- 教室の様子（単一表示） -->
-        <section aria-labelledby="about-kv-title" class="about-block">
-          <h3 id="about-kv-title">教室の様子</h3>
-          <figure class="kv-photo">
-            <div class="sq">
-              <img src="./assets/img/class-01.jpg" width="1280" height="1280" alt="教室の全景【仮】" loading="lazy">
-            </div>
-          </figure>
-        </section>
-
-        <!-- 学習の様子（自動スライド／1枚表示） -->
-        <section aria-labelledby="study-title" class="about-block">
-          <h3 id="study-title">学習の様子</h3>
-          <div class="slider" data-autoplay="3000" data-loop="true" data-per-view="1">
-            <div class="slides">
-              <!-- class-02：横長ソース想定 → 表示時は白背景へ -->
-              <figure data-wide="true">
-                <div class="sq">
-                  <img src="./assets/img/class-02.jpg" width="1280" height="1280" alt="講師が個別にサポートする様子【仮】" loading="lazy">
-                </div>
-              </figure>
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-03.jpg" width="1280" height="1280" alt="学習の目標シートに取り組む様子【仮】" loading="lazy">
-                </div>
-              </figure>
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-04.jpg" width="1280" height="1280" alt="集中して課題に取り組む様子【仮】" loading="lazy">
-                </div>
-              </figure>
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-05.jpg" width="1280" height="1280" alt="教材や道具を使った学習【仮】" loading="lazy">
-                </div>
-              </figure>
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-06.jpg" width="1280" height="1280" alt="講師との対話型学習【仮】" loading="lazy">
-                </div>
-              </figure>
-            </div>
-            <button class="sl-nav prev" aria-label="前へ">‹</button>
-            <button class="sl-nav next" aria-label="次へ">›</button>
-            <div class="sl-dots" role="tablist" aria-label="学習の様子の画像"></div>
-          </div>
-        </section>
-
-        <!-- 楽しく学べる場所をめざしています（自動スライド／1枚表示） -->
-        <section aria-labelledby="fun-title" class="about-block">
-          <h3 id="fun-title">楽しく学べます</h3>
-          <div class="slider" data-autoplay="3000" data-loop="true" data-per-view="1">
-            <div class="slides">
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-07.jpg" width="1280" height="1280" alt="笑顔で取り組む様子【仮】" loading="lazy">
-                </div>
-              </figure>
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-08.jpg" width="2894" height="2894" alt="協働する学びの様子【仮】" loading="lazy">
-                </div>
-              </figure>
-              <figure>
-                <div class="sq">
-                  <img src="./assets/img/class-09.jpg" width="1280" height="1280" alt="安心・安全への配慮【仮】" loading="lazy">
-                </div>
-              </figure>
-            </div>
-            <button class="sl-nav prev" aria-label="前へ">‹</button>
-            <button class="sl-nav next" aria-label="次へ">›</button>
-            <div class="sl-dots" role="tablist" aria-label="楽しく学べる場所をめざしていますの画像"></div>
-          </div>
-        </section>
+      <h2>育ちの場　歩の特長</h2>
+      <div class="cards-3">
+        <article class="card">
+          <h3>一人ひとりに合わせた学び</h3>
+          <p>現在の学習状況や基礎の定着具合を見ながら、一人ひとりに合った学習を提供します。</p>
+        </article>
+        <article class="card">
+          <h3>無理なく続くしくみ</h3>
+          <p>集中できる時間を見ながら休憩を設定。学習後は振り返りやお楽しみを取り入れ、無理なく継続できる仕組みを整えています。</p>
+        </article>
+        <article class="card">
+          <h3>安心の相談サポート</h3>
+          <p>保護者様とのコミュニケーションを大切に。学習や生活、学校でのお悩みもお気軽にご相談いただけます。</p>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- Services -->
-  <section id="services" class="section alt">
+  <!-- コース・料金 -->
+  <section id="services" class="section">
     <div class="container">
-      <h2>サービス・料金【仮】</h2>
+      <h2>コース・料金</h2>
+
+      <div class="price-note">
+        <p>コース別授業料 <strong>＋ 設備・運営費 5,500円／月</strong></p>
+      </div>
+
       <div class="price-grid">
-        <article class="price-card"><h3>ベーシック</h3><p class="price">¥【仮】/月</p><ul><li>週1回 × 60分</li><li>基礎力の定着</li><li>フィードバックシート</li></ul><a class="btn btn-light" href="#contact">体験する</a></article>
-        <article class="price-card featured"><h3>ステップアップ</h3><p class="price">¥【仮】/月</p><ul><li>週1〜2回</li><li>応用・発展</li><li>月例ふりかえり</li></ul><a class="btn btn-primary" href="#contact">人気プランで体験</a></article>
-        <article class="price-card"><h3>パーソナル</h3><p class="price">¥【仮】/月</p><ul><li>1対1の短期集中</li><li>目的別カリキュラム</li><li>柔軟スケジューリング</li></ul><a class="btn btn-light" href="#contact">相談する</a></article>
+        <article class="price-card featured">
+          <h3>個別学習コース（週1回・月4回）</h3>
+          <ul class="price-list">
+            <li>小1〜小3生：<strong>12,000円／月</strong>（80分）</li>
+            <li>小4〜小6生：<strong>13,000円／月</strong>（90分）</li>
+            <li>中学生　　：<strong>14,000円／月</strong>（90分）</li>
+            <li>高校生　　：<strong>15,000円／月</strong>（90分）</li>
+          </ul>
+        </article>
+
+        <article class="price-card featured">
+          <h3>英検対策コース（週1回・月4回）</h3>
+          <ul class="price-list">
+            <li>英検5級：<strong>10,000円／月</strong>（90分）</li>
+            <li>英検4級：<strong>10,000円／月</strong>（90分）</li>
+            <li class="muted">※ 英検3級・準2級は個別学習コースでの学習となります。</li>
+          </ul>
+        </article>
       </div>
+
       <div class="flow">
         <h3>受講の流れ</h3>
         <ol>
-          <li>フォームから体験申込</li><li>ヒアリング（目標/スケジュール）</li><li>体験受講</li><li>最適プランのご提案</li><li>ご入会手続き</li>
+          <li>下記アンケートフォームの回答</li>
+          <li>保護者様との面談（現在の状況／当教室の方針）</li>
+          <li>初月体験授業（正規授業料 − 1,000円）</li>
+          <li>保護者様との面談（今後の方針や教材について）</li>
+          <li>ご入会手続き</li>
         </ol>
       </div>
     </div>
   </section>
 
-  <!-- News -->
-  <section id="news" class="section">
+  <!-- お知らせ -->
+  <section id="news" class="section alt">
     <div class="container">
       <h2>お知らせ</h2>
       <div class="news-list" aria-live="polite">
-        <article class="news-item"><time datetime="2025-09-01">2025.09.01</time><h3>【仮】体験レッスン 9月枠の募集を開始しました</h3><p>初めての方もお気軽に。Instagramでも当日の様子を発信しています。</p></article>
-        <article class="news-item"><time datetime="2025-08-25">2025.08.25</time><h3>【仮】安全対策のページを更新しました</h3><p>入退室管理や緊急時対応を見直し、より安心して通える環境づくりを進めています。</p></article>
-        <article class="news-item"><time datetime="2025-08-10">2025.08.10</time><h3>【仮】夏期スケジュールのお知らせ</h3><p>一部日程に休講・振替枠があります。詳細はお問い合わせください。</p></article>
+        <article class="news-item">
+          <time datetime="2025-09-20">2025.09.20</time>
+          <h3>授業場所を検討中です</h3>
+          <p>川越市内の駅から徒歩10分圏内で開講できる場所を探しています。見つかり次第、更新いたします。お急ぎの場合は、近隣のレンタルスペースをお借りして授業を始めることも可能です。ご相談ください。</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2025-09-20">2025.09.20</time>
+          <h3>お知らせの掲載内容は現在検討中です</h3>
+          <p>最新情報は順次更新いたします。</p>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" class="section alt">
+  <section id="faq" class="section">
     <div class="container">
       <h2>よくある質問</h2>
       <div class="accordion" data-accordion>
-        <details><summary>体験はありますか？</summary><div class="content">はい、随時受け付けています。フォームからご希望日時をご連絡ください。</div></details>
-        <details><summary>対象年齢は？</summary><div class="content">【仮】小学生〜一般の方まで。目的に応じてクラスをご案内します。</div></details>
-        <details><summary>振替はできますか？</summary><div class="content">【仮】前日までのご連絡で月◯回まで無料振替が可能です。</div></details>
-        <details><summary>料金の支払い方法は？</summary><div class="content">【仮】口座振替／クレジットに対応予定です。詳細はご入会時にご案内します。</div></details>
+        <details>
+          <summary>授業は見学しても良いですか？</summary>
+          <div class="content">
+            基本的には、お預けいただきます。保護者様がいらっしゃると甘えてしまったり、恥ずかしがってしまったりして学習効果が薄れる場合があるため、講師とお子様の1対1（〜3）で取り組みます。
+          </div>
+        </details>
+        <details>
+          <summary>授業の様子ややったことは教えてもらえますか？</summary>
+          <div class="content">
+            はい。ご利用可能な連絡手段を用いて、毎回の授業当日中に授業の様子や内容、宿題、次回取り組むことなどをお伝えします。
+          </div>
+        </details>
+        <details>
+          <summary>振替はできますか？</summary>
+          <div class="content">
+            はい。急用や体調不良など、理由は問わず振替調整いたします。
+          </div>
+        </details>
+        <details>
+          <summary>料金の支払い方法は？</summary>
+          <div class="content">
+            毎月1回目の授業時に現金でお支払いいただきます。
+          </div>
+        </details>
       </div>
     </div>
   </section>
 
-<!-- SNS・連絡先（アクセスの代替） -->
-<section id="sns" class="section">
-  <div class="container">
-    <h2>SNS・連絡先</h2>
-    <p class="muted">Instagram と Threads で日々の様子を発信中。お急ぎのご連絡はメールへ。</p>
-
-    <div class="sns-grid">
-      <!-- Instagram -->
-      <a class="sns-card" href="https://www.instagram.com/【あなたのID】" target="_blank" rel="noopener" aria-label="Instagramを開く">
-        <img class="sns-icon" src="./assets/img/icon-instagram.svg" alt="Instagramアイコン" width="128" height="128" loading="lazy">
-        <div class="sns-title">Instagram</div>
-        <div class="sns-sub">@【仮】</div>
-      </a>
-
-      <!-- Threads -->
-      <a class="sns-card" href="https://www.threads.net/@【あなたのID】" target="_blank" rel="noopener" aria-label="Threadsを開く">
-        <img class="sns-icon" src="./assets/img/icon-threads.svg" alt="Threadsアイコン" width="128" height="128" loading="lazy">
-        <div class="sns-title">Threads</div>
-        <div class="sns-sub">@【仮】</div>
-      </a>
-
-      <!-- メール -->
-      <div class="sns-card">
-        <img class="sns-icon" src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="%23F3F0FA"/><path d="M4 7h16v10H4z" fill="white" stroke="%239D86D7"/><path d="M4 7l8 6 8-6" fill="none" stroke="%236C4EB4" stroke-width="1.6"/></svg>' alt="" aria-hidden="true" width="128" height="128" loading="lazy">
-        <div class="sns-title">Mail</div>
-        <p><a class="btn btn-outline" href="mailto:ayumi.sodachinoba@gmail.com">ayumi.sodachinoba@gmail.com</a></p>
-      </div>
-    </div>
-
-    <!-- ▼ アクセス（住所決定後に、このコメントを外して使います） -->
-    <!--
-    <div class="two-col mt-32">
-      <div>
-        <h2>アクセス</h2>
-        <p>〒000-0000 東京都〇〇区〇〇0-0／最寄り駅から徒歩〇分。地図の埋め込みは住所確定後に設定します。</p>
-        <ul class="check">
-          <li>営業時間：【仮】平日 15:00–20:00 / 土日一部開講</li>
-          <li>連絡先：<a href="mailto:ayumi.sodachinoba@gmail.com">ayumi.sodachinoba@gmail.com</a></li>
-        </ul>
-      </div>
-      <div class="map ph-img" aria-label="地図【仮】">MAP</div>
-    </div>
-    -->
-  </div>
-</section>
-
-
-  <!-- Contact -->
-  <section id="contact" class="section alt">
+  <!-- SNS・連絡先（アクセスの代替。住所決定後に差し替え予定） -->
+  <section id="access" class="section alt">
     <div class="container">
-      <h2>お問い合わせ・体験申込</h2>
+      <h2>SNS・連絡先</h2>
+      <p class="muted">Instagram / Threads で日々の様子を発信中。お急ぎのご連絡はメールへ。</p>
+
+      <div class="sns-grid">
+        <!-- Instagram -->
+        <a class="sns-card" href="https://www.instagram.com/mion_miraichallenge" target="_blank" rel="noopener" aria-label="Instagramを開く">
+          <img class="sns-icon" src="./assets/img/icon-instagram.svg" alt="Instagram" width="128" height="128" loading="lazy">
+          <div class="sns-title">Instagram</div>
+          <div class="sns-sub">@mion_miraichallenge</div>
+        </a>
+
+        <!-- Threads -->
+        <a class="sns-card" href="https://www.threads.net/@mion_miraichallenge" target="_blank" rel="noopener" aria-label="Threadsを開く">
+          <img class="sns-icon" src="./assets/img/icon-threads.svg" alt="Threads" width="128" height="128" loading="lazy">
+          <div class="sns-title">Threads</div>
+          <div class="sns-sub">@mion_miraichallenge</div>
+        </a>
+
+        <!-- メール -->
+        <div class="sns-card">
+          <img class="sns-icon" src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="%23FFF2E5"/><path d="M4 7h16v10H4z" fill="white" stroke="%23FFB266"/><path d="M4 7l8 6 8-6" fill="none" stroke="%23F28C00" stroke-width="1.6"/></svg>' alt="" aria-hidden="true" width="128" height="128" loading="lazy">
+          <div class="sns-title">メール</div>
+          <p><a class="btn btn-outline" href="mailto:ayumi.sodachinoba@gmail.com">ayumi.sodachinoba@gmail.com</a></p>
+        </div>
+      </div>
+
+      <!-- ▼ アクセス（住所決定後に、このコメントを外して使います） -->
+      <!--
+      <div class="two-col mt-32">
+        <div>
+          <h2>アクセス</h2>
+          <p>〒000-0000 埼玉県川越市（駅徒歩10分圏内で開講予定）</p>
+          <ul class="check">
+            <li>営業時間：【仮】平日 15:00–20:00 / 土日一部開講</li>
+            <li>連絡先：<a href="mailto:ayumi.sodachinoba@gmail.com">ayumi.sodachinoba@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="map ph-img" aria-label="地図【仮】">MAP</div>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- お問い合わせ・面談申込 -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>お問い合わせ・面談申込</h2>
       <form id="contactForm" novalidate>
         <div class="form-grid">
-          <label>氏名 <span class="req">必須</span><input type="text" name="name" required minlength="2" maxlength="50" autocomplete="name" /></label>
-          <label>メール <span class="req">必須</span><input type="email" name="email" required inputmode="email" autocomplete="email" /></label>
+          <label>氏名 <span class="req">必須</span>
+            <input type="text" name="name" required minlength="2" maxlength="50" autocomplete="name" />
+          </label>
+          <label>メール <span class="req">必須</span>
+            <input type="email" name="email" required inputmode="email" autocomplete="email" />
+          </label>
           <label>ご用件
-            <select name="topic"><option value="">選択してください</option><option>体験申込</option><option>資料請求</option><option>その他</option></select>
+            <select name="topic">
+              <option value="">選択してください</option>
+              <option>面談申込</option>
+              <option>ご相談/ご質問</option>
+              <option>その他</option>
+            </select>
           </label>
           <label class="full">内容 <span class="req">必須</span>
             <textarea name="message" required minlength="10" maxlength="2000" rows="6" placeholder="ご希望日時やご相談内容をご記入ください。"></textarea>
           </label>
-          <label class="checkline full"><input type="checkbox" name="agree" required /><span>プライバシーポリシーに同意する</span></label>
+          <label class="checkline full">
+            <input type="checkbox" name="agree" required />
+            <span>プライバシーポリシーに同意する</span>
+          </label>
         </div>
-        <div class="form-actions"><button type="submit" class="btn btn-primary">送信する</button><p class="form-note">送信後、自動返信メールをお送りします【仮】。</p></div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">送信する</button>
+          <p class="form-note">送信後、自動返信メールをお送りします。</p>
+        </div>
         <p id="formStatus" role="status" aria-live="polite"></p>
       </form>
+    </div>
+  </section>
+
+  <!-- 過去の様子（画像を最後にまとめて掲載） -->
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2>過去の様子</h2>
+      <p class="muted">※ 画像は一例です。最新の活動はSNSをご覧ください。</p>
+      <div class="gallery-grid">
+        <figure><div class="sq"><img src="./assets/img/class-01.jpg" width="1280" height="1280" alt="教室の全景【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-02.jpg" width="1280" height="1280" alt="学習の様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-03.jpg" width="1280" height="1280" alt="学習の様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-04.jpg" width="1280" height="1280" alt="学習の様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-05.jpg" width="1280" height="1280" alt="学習の様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-06.jpg" width="1280" height="1280" alt="学習の様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-07.jpg" width="1280" height="1280" alt="楽しく学ぶ様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-08.jpg" width="1280" height="1280" alt="楽しく学ぶ様子【仮】"></div></figure>
+        <figure><div class="sq"><img src="./assets/img/class-09.jpg" width="1280" height="1280" alt="安全への配慮【仮】"></div></figure>
+      </div>
     </div>
   </section>
 
@@ -275,7 +279,13 @@
     <div class="container footer-inner">
       <small>© <span id="year"></span> 育ちの場　歩</small>
       <nav aria-label="フッターナビ">
-        <a href="#home">トップ</a><a href="#about">教室紹介</a><a href="#services">サービス・料金</a><a href="#news">お知らせ</a><a href="#faq">FAQ</a><a href="#sns">SNS・連絡先</a><a href="#contact">お問い合わせ</a>
+        <a href="#home">トップ</a>
+        <a href="#features">特長</a>
+        <a href="#services">コース・料金</a>
+        <a href="#news">お知らせ</a>
+        <a href="#faq">FAQ</a>
+        <a href="#access">SNS・連絡先</a>
+        <a href="#contact">お問い合わせ</a>
       </nav>
     </div>
   </footer>
