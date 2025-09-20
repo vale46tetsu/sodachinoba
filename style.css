@@ -241,3 +241,11 @@ input[type="checkbox"]{
 /* 価格リスト内の注記行（※）はマーカー非表示 */
 .price-list li.muted{ list-style: none; }
 
+/* ボタンの禁改行＋縮小禁止（スマホで1文字だけ改行されないように） */
+.btn{ white-space: nowrap; }
+.form-actions .btn{ flex-shrink: 0; }   /* 横幅を無理に縮めない */
+.form-actions{ flex-wrap: wrap; }       /* 代わりに注意書きを下に回す */
+
+@media (max-width:480px){
+  .btn{ padding:10px 16px; font-size:0.95rem; }
+}
