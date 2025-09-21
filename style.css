@@ -96,13 +96,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   font-family: inherit;    /* 本文と同じ書体 */
   margin:0 auto 10px;      /* 中央配置 */
 }
-.hero-brand .brand-sub{
-  font-family: inherit;
-  font-size:clamp(18px, 3.2vw, 26px);
-  font-weight:600;
-  color:var(--primary-dark);
-  letter-spacing:.08em;
-}
 .hero-brand .brand-main{
   font-family: inherit;
   font-size:clamp(34px, 5.6vw, 48px);  /* 大きめ */
@@ -260,3 +253,30 @@ input[type="checkbox"]{
 .flow .flow-card{ margin-top:12px; }
 .flow-steps{ margin:6px 0 0; padding-left:1.2em; }
 .flow-steps li{ margin:6px 0; }
+
+/* 置換：既存の .hero-inner ブロック */
+.hero-inner{
+  display:grid;
+  grid-template-columns: 1.1fr .9fr;
+  grid-template-areas:
+    "brand brand"   /* ← 上段で左右2カラムにまたがって表示 */
+    "copy  visual";
+  gap:28px;
+  align-items:center;
+}
+
+/* 追加：各エリア割り当て */
+.hero-brand{ grid-area: brand; justify-content:center; margin:0 0 6px; }
+.hero-copy { grid-area: copy;  }
+.hero-visual{ grid-area: visual; }
+
+/* モバイルは上から：塾名 → テキスト → 画像 */
+@media (max-width:900px){
+  .hero-inner{
+    grid-template-columns:1fr;
+    grid-template-areas:
+      "brand"
+      "copy"
+      "visual";
+  }
+}
